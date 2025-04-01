@@ -1,0 +1,8 @@
+[run]
+omit =
+    PirateEase/main.py
+    PirateEase/QueryHandlers/abc_handler.py
+
+[html]
+directory = htmlcov
+show_contexts = true
