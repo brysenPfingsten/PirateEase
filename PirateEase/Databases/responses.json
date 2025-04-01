@@ -1,0 +1,172 @@
+{
+  "order_id": [
+    "Can you share your order ID so I can find your details?",
+    "I'll need the order number to look that up for you.",
+    "Please give me your order ID to proceed.",
+    "What’s the ID on your order? I’ll take it from there.",
+    "If you could provide the order ID, I can check its status.",
+    "What be the number of yer order, matey? I’ll hunt it down!"
+  ],
+  "refund_id": [
+    "Could you provide your refund ID so I can check its status?",
+    "I'll need the refund number to look that up for you.",
+    "Please share your refund ID to help me locate your request.",
+    "Can you give me the refund ID to proceed?",
+    "Arrr! What's yer refund ID? I'll track it down!",
+    "Hand over yer refund number, matey—I'll get it sorted!"
+  ],
+  "invalid_order_id": [
+    "PirateEase: Invalid order ID. Please ensure you correctly entered your six digit ID.",
+    "PirateEase: That order ID doesn’t look right. Make sure it’s six digits.",
+    "PirateEase: Hmm… can’t process that. Check your six digit order ID and try again.",
+    "PirateEase: We couldn’t verify that ID. It should be exactly six digits.",
+    "PirateEase: Invalid ID format. Order IDs are six digits long.",
+    "PirateEase: No match found. Double check your six digit order ID.",
+    "PirateEase: Sorry, we didn’t recognize that order ID. Confirm it’s six digits.",
+    "PirateEase: That order ID seems off. Please re-enter the correct six digit code.",
+    "PirateEase: Oops! Order ID must be six digits. Please verify and try again.",
+    "PirateEase: Trouble finding that order. Make sure your ID is six digits, no letters or spaces."
+  ],
+  "order_arrival": [
+    "Order {order_id} for {customer_name} is arriving in {days} days.",
+    "Heads up, {customer_name}! Order {order_id} will be there in {days} days.",
+    "{customer_name}, your order {order_id} is expected in {days} days.",
+    "The journey continues! Order {order_id} for {customer_name} arrives in {days} days.",
+    "Order {order_id} is en route to {customer_name}, arriving in {days} days.",
+    "Good news, {customer_name}! Your order {order_id} will land in {days} days.",
+    "{customer_name}, your goods (Order {order_id}) will reach you in {days} days.",
+    "Delivery update: Order {order_id} for {customer_name} comes in {days} days.",
+    "Order {order_id} is sailing in for {customer_name} — ETA: {days} days.",
+    "Just {days} days left before {customer_name} gets Order {order_id}!"
+  ],
+  "order_not_found": [
+    "Order ID {order_id} was not found. Double check that you entered your Order ID correctly.",
+    "Hmm... we couldn’t locate Order ID {order_id}. Mind checking it again?",
+    "No match for Order ID {order_id}. Please verify and try once more.",
+    "Order ID {order_id} doesn't seem to exist in our system.",
+    "We weren't able to find Order ID {order_id}. Is it entered correctly?",
+    "Order ID {order_id} isn’t turning up anything. Double check the number you provided.",
+    "There’s no trace of Order ID {order_id}. Could it be a typo?",
+    "Sorry! Order ID {order_id} can't be found. Give it another look.",
+    "Our records don’t show Order ID {order_id}. Please confirm the details.",
+    "Yikes — Order ID {order_id} is missing from our logs. Try re-entering it."
+  ],
+  "refund_reason": [
+    "Can you let me know the reason for your return?",
+    "What issue did you experience with the item?",
+    "Please describe why you're sending the product back.",
+    "Is the product faulty, or did you change your mind?",
+    "Let me know what went wrong so we can process your refund.",
+    "Tell me why ye be sendin’ back the booty—was it cursed, broken, or not to yer likin’?"
+  ],
+  "refund_already_processed": [
+    "Order {order_id} has already been refunded. Please check our portal for the status of your refund.",
+    "Looks like Order {order_id} was already refunded. You can verify it in your account.",
+    "Our system shows that Order {order_id} has already been refunded.",
+    "Refund for Order {order_id} is complete. Feel free to check your refund status online.",
+    "No worries! Order {order_id} was previously refunded. You can view the details in the portal.",
+    "Order {order_id} has already been taken care of. Check your refund status on your dashboard.",
+    "You've already been refunded for Order {order_id}. Check your records to confirm.",
+    "Order {order_id}? Already refunded! You can confirm the status through our site.",
+    "Refund for Order {order_id} was processed earlier. You can track it from your profile.",
+    "Order {order_id} has a completed refund. Visit your refund history for confirmation."
+  ],
+  "refund_submitted": [
+    "Your refund request for order {order_id} has been submitted! Expect the refund in 5-7 business days.",
+    "We’ve received your refund request for Order {order_id}. Processing now!",
+    "Refund initiated for Order {order_id}. You should see it within 5-7 business days.",
+    "All set! Your refund for Order {order_id} is on its way.",
+    "Thanks for your request — refund for Order {order_id} is being processed.",
+    "Refund request for Order {order_id} submitted successfully. Keep an eye out in 5–7 days!",
+    "You're good to go! Order {order_id} refund will be issued shortly.",
+    "Refund for Order {order_id} is now in progress. Expect it within the usual timeframe.",
+    "We’ve kicked off the refund process for Order {order_id}. Sit tight!",
+    "Your refund is coming! Order {order_id} is being processed now."
+  ],
+  "product": [
+    "What’s the name of the item you’re interested in?",
+    "Let me know which product you're asking about and I’ll check availability.",
+    "Please tell me the item you want to inquire about.",
+    "Which product are you hoping to buy or learn more about?",
+    "Just tell me which item and I’ll see if it’s still in stock.",
+    "Which treasure be ye seekin'? Name it, and I’ll check the hold!"
+  ],
+  "product_available": [
+    "{item} is currently available for {price}! There are {quantity} left.",
+    "{item} is in stock at {price}! Only {quantity} remaining.",
+    "{item} can be yours today for {price}! We’ve got {quantity} left.",
+    "{item} is up for grabs at {price}! {quantity} available now.",
+    "{item} is ready to ship for just {price}! Only {quantity} in stock.",
+    "Good news! {item} is available for {price} — {quantity} left!",
+    "Act fast! {quantity} units of {item} remaining at {price} each.",
+    "Yes! {item} is here at {price}, with {quantity} in stock.",
+    "Get your {item} now for {price}! Only {quantity} left.",
+    "{item} just hit the shelves for {price}! {quantity} up for grabs."
+  ],
+  "not_available": [
+    "{item} is currently out of stock.",
+    "Sorry, we're fresh out of {item}.",
+    "Looks like {item} is temporarily unavailable.",
+    "Ahoy! {item} is all gone for now.",
+    "No more {item} at the moment—check back soon!",
+    "We’ve run out of {item}, unfortunately.",
+    "{item} is out of commission for the time being.",
+    "Heads up! {item} isn’t available right now."
+  ],
+  "not_sold": [
+    "We don’t carry {item}.",
+    "Sorry, {item} isn’t something we sell.",
+    "You won’t find {item} in our inventory.",
+    "Unfortunately, {item} isn’t part of our stock.",
+    "Nope, we don’t sell {item}.",
+    "{item}? Not in our catalog, matey.",
+    "We have many things, but {item} isn’t one of them.",
+    "{item} isn’t available through our store."
+  ],
+  "connecting_agent": [
+    "Connecting you with {agent}...",
+    "You're being connected to {agent}...",
+    "Hang tight! {agent} will be with you shortly...",
+    "Getting {agent} on the line...",
+    "Just a moment — connecting you to {agent}...",
+    "Summoning {agent}...",
+    "Bringing in {agent} now...",
+    "One sec! Looping in {agent}...",
+    "Linking you up with {agent}...",
+    "Routing your request to {agent}..."
+  ],
+  "live_agent": [
+    "One moment while I bring in a support specialist for you.",
+    "I'll connect you with our customer care team right away.",
+    "Hang tight—I’m looping in someone from our crew to help out.",
+    "Let me pull in a human agent to take over from here.",
+    "I'll pass this over to a live representative who can assist you further.",
+    "Summonin’ a live crew member to speak with ye now, matey!"
+  ],
+  "default": [
+    "Sorry, I can't answer that at the moment. Could you try asking another way?",
+    "Not sure about that yet. Let me log it and return with more info. If you need to, you can request a live agent.",
+    "I’ll need to pass this along to someone who knows more. Can I help with anything else?",
+    "Arrr, I be stumped on that one—let me ask the crew! Can I assist you with anything else matey?"
+  ],
+  "negative": [
+    "I'm really sorry this happened. Let me get someone to assist you right away.",
+    "I completely understand—that’s not what we want. I’m escalating this to support now.",
+    "Apologies for the trouble. A live agent will take over shortly to fix this.",
+    "Let me connect you with someone who can make this right.",
+    "That doesn’t sound good. I’ll alert the right team immediately.",
+    "Blimey! That shouldn’t have happened. A shipmate will assist ye at once!"
+  ],
+  "exit": [
+    "Alright, take care! If you need anything else, just come back.",
+    "Goodbye! It was great assisting you.",
+    "See you later! Have a wonderful day.",
+    "Thanks for chatting! Logging you out now.",
+    "Session ended. Feel free to reach out again anytime.",
+    "You've been successfully logged out. Stay safe!",
+    "Closing the chat. Don't hesitate to return if you have more questions.",
+    "Bye for now! Always here when you need help.",
+    "Chat ended. Looking forward to helping you again soon!",
+    "Take care! Your session is now closed."
+  ]
+}

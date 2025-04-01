@@ -1,0 +1,142 @@
+[
+  {
+    "name": "tricorn hat",
+    "quantity": 5,
+    "price": 24.99,
+    "synonyms": ["pirate hat", "three-cornered hat", "tri-corner", "tricorn", "headwear"],
+    "tags": ["clothing", "headwear", "pirate"]
+  },
+  {
+    "name": "eye patch",
+    "quantity": 0,
+    "price": 4.50,
+    "synonyms": ["eye cover", "patch", "vision patch", "eyepatch"],
+    "tags": ["accessory", "face", "pirate"]
+  },
+  {
+    "name": "hook hand",
+    "quantity": 3,
+    "price": 12.00,
+    "synonyms": ["hook", "prosthetic"],
+    "tags": ["accessory", "weapon", "hand"]
+  },
+  {
+    "name": "parrot plush",
+    "quantity": 7,
+    "price": 17.95,
+    "synonyms": ["stuffed parrot", "toy parrot", "plushie", "bird plush", "pet"],
+    "tags": ["toy", "animal", "plush"]
+  },
+  {
+    "name": "peg leg",
+    "quantity": 2,
+    "price": 39.99,
+    "synonyms": ["wooden leg", "fake leg", "pirate leg", "prosthetic"],
+    "tags": ["accessory", "leg", "pirate"]
+  },
+  {
+    "name": "treasure map scroll",
+    "quantity": 0,
+    "price": 8.25,
+    "synonyms": ["pirate map", "map scroll", "treasure scroll", "buried map"],
+    "tags": ["tool", "paper", "treasure"]
+  },
+  {
+    "name": "gold coin bag",
+    "quantity": 12,
+    "price": 14.50,
+    "synonyms": ["coin pouch", "treasure bag", "gold coins", "money sack"],
+    "tags": ["currency", "treasure", "loot"]
+  },
+  {
+    "name": "pirate boots",
+    "quantity": 4,
+    "price": 34.95,
+    "synonyms": ["leather boots", "black boots", "pirate shoes", "footwear"],
+    "tags": ["clothing", "shoes", "pirate"]
+  },
+  {
+    "name": "foam cutlass sword",
+    "quantity": 9,
+    "price": 9.99,
+    "synonyms": ["toy sword", "cutlass", "foam saber", "play sword"],
+    "tags": ["weapon", "toy", "foam"]
+  },
+  {
+    "name": "skull and crossbones flag",
+    "quantity": 6,
+    "price": 11.25,
+    "synonyms": ["pirate flag", "jolly roger", "skull flag", "black banner"],
+    "tags": ["decor", "flag", "symbol"]
+  },
+  {
+    "name": "ruffled pirate shirt",
+    "quantity": 0,
+    "price": 27.50,
+    "synonyms": ["frilly shirt", "pirate blouse", "puffy shirt", "costume top"],
+    "tags": ["clothing", "shirt", "pirate"]
+  },
+  {
+    "name": "leather belt with buckle",
+    "quantity": 8,
+    "price": 13.75,
+    "synonyms": ["pirate belt", "buckled belt", "waistband", "belt"],
+    "tags": ["accessory", "clothing", "waist"]
+  },
+  {
+    "name": "compass",
+    "quantity": 1,
+    "price": 19.99,
+    "synonyms": ["navigation tool", "direction finder", "magnetic compass", "navigator"],
+    "tags": ["tool", "navigation", "gear"]
+  },
+  {
+    "name": "pirate queen dress",
+    "quantity": 2,
+    "price": 42.00,
+    "synonyms": ["pirate gown", "queen outfit", "costume dress", "lady pirate"],
+    "tags": ["clothing", "dress", "costume"]
+  },
+  {
+    "name": "black bandana",
+    "quantity": 0,
+    "price": 5.25,
+    "synonyms": ["head wrap", "bandanna", "pirate scarf", "headgear"],
+    "tags": ["clothing", "headwear", "accessory"]
+  },
+  {
+    "name": "jolly roger mug",
+    "quantity": 10,
+    "price": 10.50,
+    "synonyms": ["pirate mug", "skull mug", "coffee cup", "pirate drinkware"],
+    "tags": ["drinkware", "mug", "decor"]
+  },
+  {
+    "name": "earring",
+    "quantity": 14,
+    "price": 3.75,
+    "synonyms": ["pirate earring", "gold hoop", "jewelry", "hoop earring"],
+    "tags": ["accessory", "jewelry", "ear"]
+  },
+  {
+    "name": "captain coat",
+    "quantity": 3,
+    "price": 44.95,
+    "synonyms": ["pirate coat", "jacket", "overcoat", "captain's jacket"],
+    "tags": ["clothing", "outerwear", "pirate"]
+  },
+  {
+    "name": "message in a bottle kit",
+    "quantity": 0,
+    "price": 6.50,
+    "synonyms": ["bottle letter", "note in bottle", "bottle message kit", "message kit"],
+    "tags": ["toy", "craft", "bottle"]
+  },
+  {
+    "name": "flask",
+    "quantity": 11,
+    "price": 12.99,
+    "synonyms": ["rum flask", "metal flask", "canteen", "pocket flask"],
+    "tags": ["drinkware", "container", "accessory"]
+  }
+]

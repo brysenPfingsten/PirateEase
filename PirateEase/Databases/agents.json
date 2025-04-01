@@ -1,0 +1,12 @@
+[
+    { "name": "Captain Blackbeard", "available": true },
+    { "name": "Anne Bonny", "available": false },
+    { "name": "Calico Jack", "available": true },
+    { "name": "Mary Read", "available": false },
+    { "name": "Long John Silver", "available": true },
+    { "name": "Grace O'Malley", "available": true },
+    { "name": "Edward Low", "available": false },
+    { "name": "Charles Vane", "available": true },
+    { "name": "Henry Morgan", "available": false },
+    { "name": "Bartholomew Roberts", "available": true }
+]

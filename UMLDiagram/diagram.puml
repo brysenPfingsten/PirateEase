@@ -1,0 +1,255 @@
+@startuml
+
+!theme spacelab
+left to right direction
+skinparam classAttributeIconSize 0
+skinparam classFontSize 14
+skinparam classBorderColor black
+skinparam shadowing true
+skinparam linetype polyline
+skinparam defaultTextAlignment center
+skinparam dpi 400
+skinparam class {
+  ArrowColor black
+  BorderColor black
+  FontStyle bold
+}
+
+
+
+class node1 as "PirateEase.QueryHandlers.abc_handler.QueryHandler" {
+   _session:
+   _backend:
+   __init__(self):
+   handle(self, query: str):
+}
+class node9 as "PirateEase.QueryHandlers.default_handler.DefaultHandler" {
+   handle(self, query: str):
+}
+class node28 as "PirateEase.QueryHandlers.exit_handler.ExitHandler" {
+   handle(self, query: str):
+}
+class node23 as "PirateEase.QueryHandlers.live_agent_handler.LiveAgentHandler" {
+   handle(self, query=None):
+}
+class node14 as "PirateEase.QueryHandlers.order_tracking_handler.OrderTrackingHandler" {
+   handle(self, query: str):
+}
+class node6 as "PirateEase.QueryHandlers.product_availability_handler.ProductAvailabilityHandler" {
+   handle(self, query):
+}
+class node11 as "PirateEase.QueryHandlers.query_database.QueryDatabase" {
+   queries:
+   __init__(self):
+   handle(self, query: str):
+}
+class node20 as "PirateEase.QueryHandlers.query_manager.QueryManager" {
+   handlers:
+   __init__(self):
+   get_handler(self, query_type: str):
+}
+class node25 as "PirateEase.QueryHandlers.refund_handler.RefundHandler" {
+   handle(self, query: str):
+}
+class node16 as "PirateEase.Services.exit_service.ExitService" {
+   _initialized:
+   __init__(self):
+   get_exit_response():
+}
+class node21 as "PirateEase.Services.inventory_service.InventoryProduct" {
+   quantity:
+   price:
+   synonyms:
+   name:
+   tags:
+   __init__(self, name: str, quantity: int, price: float, synonyms: list[str], tags: list[str]):
+   item_matches_product(self, item: str):
+}
+class node22 as "PirateEase.Services.inventory_service.InventoryService" {
+   __products:
+   _initialized:
+   __init__(self):
+   get_matching_items(self, item: str):
+   check_availability(self, item: str):
+}
+class node7 as "PirateEase.Services.live_agent_notifier.Agent" {
+   name:
+   available:
+   __init__(self, name: str, available: bool):
+   alert(self, history: list[str]):
+}
+class node13 as "PirateEase.Services.live_agent_notifier.LiveAgentNotifier" {
+   observers:
+   add_observer(agent):
+   remove_observer(agent: Agent):
+   notify_agents(history: list[str]):
+}
+class node15 as "PirateEase.Services.live_agent_notifier.LiveAgentService" {
+   __agents:
+   _initialized:
+   __init__(self):
+   agent_name_in_string(self, s: str):
+   get_available_agent(self):
+}
+class node5 as "PirateEase.Services.order_service.Order" {
+   order_date:
+   item:
+   quantity:
+   refunded:
+   id:
+   customer_name:
+   eta_hours:
+   __init__(self, id: int, customer_name: str, order_date: str, eta_hours: int, item: str, quantity: int,
+                 refunded: bool):
+   __str__(self):
+}
+class node27 as "PirateEase.Services.order_service.OrderService" {
+   __orders:
+   _initialized:
+   __init__(self):
+   retrieve_order(self, order_id: str):
+}
+class node26 as "PirateEase.Services.refund_service.PastOrder" {
+   delivery_date:
+   item:
+   quantity:
+   refunded:
+   id:
+   customer_name:
+   __init__(self, id: int, customer_name: str, delivery_date: str, item: str, quantity: int, refunded: bool):
+}
+class node0 as "PirateEase.Services.refund_service.RefundService" {
+   __orders:
+   _initialized:
+   __init__(self):
+   refund_past_order(self, order_id: str):
+}
+class node4 as "PirateEase.Utils.backend_manager.BackendManager" {
+   process_request(request_type: str, data: str = ''):
+}
+class node17 as "PirateEase.Utils.intent_recognizer.IntentRecognizer" {
+   __intent_phrases:
+   __init__(self):
+   recognize_intent(self, query: str):
+}
+class node12 as "PirateEase.Utils.response_factory.ResponseFactory" {
+   responses_path:
+   responses:
+   get_response(cls, category: str):
+}
+class node8 as "PirateEase.Utils.sentiment_analyzer.SentimentAnalyzer" {
+   negative_phrases:
+   __init__(self):
+   negative_sentiment_detected(self, query: str):
+}
+class node18 as "PirateEase.Utils.session_manager.SessionManager" {
+   __history:
+   __state:
+   _initialized:
+   __init__(self):
+   state(self):
+   history(self):
+   __contains__(self, item: str):
+   get(self, key: str, default=None):
+   set(self, key: str, value):
+   append_history(self, message: str):
+}
+class node10 as "PirateEase.Utils.singleton.Singleton" {
+   instance:
+   _instances:
+   _initialized:
+   _instances:
+   __new__(cls):
+   reset(cls):
+}
+class node19 as "PirateEase.Utils.user_interface.UserInterface" {
+   session:
+   get_order_id(cls):
+   get_item_name(cls):
+   get_refund_reason(cls):
+}
+class node30 as "PirateEase.chatbot.ChatBot" {
+   __agent_service:
+   __query_manager:
+   __exit_phrases:
+   __intent_recognizer:
+   __sentiment_analyzer:
+   __session_manager:
+   __init__(self):
+   process_query(self, query: str):
+   should_disconnect(self, response: str):
+}
+class node2 as "abc.ABC" {
+   __slots__:
+}
+class node29 as "abc.ABCMeta" {
+   __abstractmethods__:
+   __new__(
+            mcls: type[_typeshed.Self], name: str, bases: tuple[type, ...], namespace: dict[str, Any], /, **kwargs: Any
+        ):
+   __instancecheck__(cls: ABCMeta, instance: Any):
+   __subclasscheck__(cls: ABCMeta, subclass: type):
+   _dump_registry(cls: ABCMeta, file: SupportsWrite[str] | None = None):
+   register(cls: ABCMeta, subclass: type[_T]):
+}
+class object {
+   __doc__:
+   __dict__:
+   __module__:
+   __annotations__:
+   __class__(self):
+   __class__(self, __type: type[object]):
+   __init__(self):
+   __new__(cls):
+   __setattr__(self, __name: str, __value: Any):
+   __delattr__(self, __name: str):
+   __eq__(self, __value: object):
+   __ne__(self, __value: object):
+   __str__(self):
+   __repr__(self):
+   __hash__(self):
+   __format__(self, __format_spec: str):
+   __getattribute__(self, __name: str):
+   __sizeof__(self):
+   __reduce__(self):
+   __reduce_ex__(self, __protocol: SupportsIndex):
+   __getstate__(self):
+   __dir__(self):
+   __init_subclass__(cls):
+   __subclasshook__(cls, __subclass: type):
+}
+class node3 as "typing.Hashable" {
+   __hash__(self):
+}
+
+node1   ^-[#595959,plain]-  node2
+node9   ^-[#595959,plain]-  node1
+node28  ^-[#595959,plain]-  node1
+node23  ^-[#595959,plain]-  node1
+node14  ^-[#595959,plain]-  node1
+node6   ^-[#595959,plain]-  node1
+node11  ^-[#595959,plain]-  node1
+node20  ^-[#595959,plain]-  object
+node25  ^-[#595959,plain]-  node1
+node16  ^-[#595959,plain]-  node10
+node21  ^-[#595959,plain]-  object
+node22  ^-[#595959,plain]-  node10
+node7   ^-[#595959,plain]-  object
+node13  ^-[#595959,plain]-  object
+node15  ^-[#595959,plain]-  node10
+node5   ^-[#595959,plain]-  object
+node27  ^-[#595959,plain]-  node10
+node26  ^-[#595959,plain]-  object
+node0   ^-[#595959,plain]-  node10
+node4   ^-[#595959,plain]-  node10
+node17  ^-[#595959,plain]-  object
+node12  ^-[#595959,plain]-  object
+node8   ^-[#595959,plain]-  object
+node18  ^-[#595959,plain]-  node10
+node10  ^-[#595959,plain]-  object
+node19  ^-[#595959,plain]-  object
+node30  ^-[#595959,plain]-  object
+node2   <-[#595959,dashed]- "isinstanceof" node29
+node2   ^-[#595959,plain]-  object
+object  ^-[#595959,dashed]-  node3
+@enduml

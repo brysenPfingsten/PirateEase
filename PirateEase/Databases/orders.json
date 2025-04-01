@@ -1,0 +1,142 @@
+{
+    "176635": {
+        "customer_name": "Morgan Goodman",
+        "order_date": "2025-03-19T15:44:49",
+        "eta_hours": 73,
+        "item": "flask",
+        "quantity": 4
+    },
+    "724081": {
+        "customer_name": "Rebecca Schmidt",
+        "order_date": "2025-03-18T11:58:02",
+        "eta_hours": 12,
+        "item": "parrot plush",
+        "quantity": 1
+    },
+    "160342": {
+        "customer_name": "Randall Cohen",
+        "order_date": "2025-03-28T07:38:49",
+        "eta_hours": 2,
+        "item": "parrot plush",
+        "quantity": 1
+    },
+    "771203": {
+        "customer_name": "Samantha Hall",
+        "order_date": "2025-03-01T13:55:04",
+        "eta_hours": 38,
+        "item": "pirate queen dress",
+        "quantity": 5
+    },
+    "866330": {
+        "customer_name": "Randy Murray",
+        "order_date": "2025-03-28T07:26:33",
+        "eta_hours": 1,
+        "item": "hook hand",
+        "quantity": 1
+    },
+    "246105": {
+        "customer_name": "Bethany Knight",
+        "order_date": "2025-03-15T22:29:45",
+        "eta_hours": 91,
+        "item": "jolly roger mug",
+        "quantity": 5
+    },
+    "593983": {
+        "customer_name": "Jordan Ramos",
+        "order_date": "2025-03-26T01:16:08",
+        "eta_hours": 19,
+        "item": "foam cutlass sword",
+        "quantity": 1
+    },
+    "168795": {
+        "customer_name": "Dale Salazar",
+        "order_date": "2025-03-11T04:12:17",
+        "eta_hours": 130,
+        "item": "gold coin bag",
+        "quantity": 3
+    },
+    "329771": {
+        "customer_name": "Jackie Gonzalez",
+        "order_date": "2025-03-08T06:38:04",
+        "eta_hours": 6,
+        "item": "leather belt with buckle",
+        "quantity": 1
+    },
+    "495044": {
+        "customer_name": "Lorenza Hurst",
+        "order_date": "2025-03-06T18:14:29",
+        "eta_hours": 23,
+        "item": "pirate boots",
+        "quantity": 2
+    },
+    "511553": {
+        "customer_name": "Kristina Francis",
+        "order_date": "2025-03-13T08:39:00",
+        "eta_hours": 168,
+        "item": "tricorn hat",
+        "quantity": 3
+    },
+    "494170": {
+        "customer_name": "Cassandra Harrington",
+        "order_date": "2025-03-05T05:20:13",
+        "eta_hours": 96,
+        "item": "flask",
+        "quantity": 2
+    },
+    "644984": {
+        "customer_name": "Gregory Sanders",
+        "order_date": "2025-03-23T14:35:46",
+        "eta_hours": 3,
+        "item": "foam cutlass sword",
+        "quantity": 4
+    },
+    "235121": {
+        "customer_name": "Amy King",
+        "order_date": "2025-03-25T09:57:21",
+        "eta_hours": 10,
+        "item": "earring",
+        "quantity": 2
+    },
+    "831009": {
+        "customer_name": "Patricia Anderson",
+        "order_date": "2025-03-20T16:48:55",
+        "eta_hours": 77,
+        "item": "captain coat",
+        "quantity": 1
+    },
+    "119634": {
+        "customer_name": "Omar Wallace",
+        "order_date": "2025-03-27T12:30:18",
+        "eta_hours": 4,
+        "item": "hook hand",
+        "quantity": 1
+    },
+    "789217": {
+        "customer_name": "Tracy Woods",
+        "order_date": "2025-03-17T20:22:50",
+        "eta_hours": 144,
+        "item": "gold coin bag",
+        "quantity": 2
+    },
+    "605827": {
+        "customer_name": "Franklin Hunter",
+        "order_date": "2025-03-22T01:40:33",
+        "eta_hours": 15,
+        "item": "leather belt with buckle",
+        "quantity": 4
+    },
+    "320287": {
+        "customer_name": "Naomi Lopez",
+        "order_date": "2025-03-16T10:55:12",
+        "eta_hours": 72,
+        "item": "compass",
+        "quantity": 1
+    },
+    "912765": {
+        "customer_name": "Dominic Williamson",
+        "order_date": "2025-03-12T23:58:00",
+        "eta_hours": 8,
+        "item": "skull and crossbones flag",
+        "quantity": 2
+    }
+}
